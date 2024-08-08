@@ -29,3 +29,8 @@ terraform plan
 terraform apply
 terraform destroy
 ```
+
+## Note
+
+デプロイ対象のプロジェクトがあるフォルダに対して、事前に以下のOrganization Policiesをオーバーライドしておく必要がある
+- constraints/compute.vmExternalIpAccess
