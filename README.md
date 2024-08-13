@@ -32,5 +32,6 @@ terraform destroy
 
 ## Note
 
-デプロイ対象のプロジェクトがあるフォルダに対して、事前に以下のOrganization Policiesをオーバーライドしておく必要がある
-- constraints/compute.vmExternalIpAccess
+- デプロイ対象のプロジェクトがあるフォルダに対して、事前に以下のOrganization Policiesをオーバーライドしておく必要がある
+  - constraints/compute.vmExternalIpAccess
+- f1-micro は東京リージョンでは在庫がないので、f1にこだわるならusリージョンにする、東京にこだわるならe2を使う
